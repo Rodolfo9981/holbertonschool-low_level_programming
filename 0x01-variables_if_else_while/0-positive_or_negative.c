@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
 * main - gives random number assigned to n
 * Return: Should always be 0
 */

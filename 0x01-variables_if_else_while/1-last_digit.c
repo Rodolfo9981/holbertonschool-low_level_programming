@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
 * main - generates a random number to n and last find the last digit
 * elseif is to see if last digit is 0 greater than 5 or less than 6 and not 0
 * Return: Should always be 0
