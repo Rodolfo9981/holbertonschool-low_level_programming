@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
 /* main - gives random number assigned to n
- *
  * Return: Should always be 0
  */
 int main(void)
@@ -25,6 +22,5 @@ int main(void)
     {
       printf("%d is zero\n", n);
     }
-  
-  return (0);
+    return (0);
 }
