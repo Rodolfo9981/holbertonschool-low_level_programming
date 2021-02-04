@@ -9,9 +9,13 @@ int main(void)
 
 	while (x <= 'f')
 	{
-		if (x <= 57 && (x <= 'a' && x <= 'f'))
+		if (x <= 57)
+			putchar(x);
+		else if (x >= 97 && x <= 102)
 			putchar(x);
 		x++;
 	}
+	putchar('\n');
+
 	return (0);
 }
